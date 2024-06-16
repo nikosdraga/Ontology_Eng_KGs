@@ -1,0 +1,119 @@
+@prefix : <http://www.examples.org/imdb/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.examples.org/imdb/> .
+
+<http://www.semanticweb.org/imdb> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/imdb/hasRating
+<http://www.semanticweb.org/imdb/hasRating> rdf:type owl:ObjectProperty ;
+                                            rdfs:domain <http://www.semanticweb.org/imdb/Movie> ;
+                                            rdfs:range <http://www.semanticweb.org/imdb/Rating> .
+
+
+###  http://www.semanticweb.org/imdb/knownFor
+<http://www.semanticweb.org/imdb/knownFor> rdf:type owl:ObjectProperty ;
+                                           rdfs:domain <http://www.semanticweb.org/imdb/Actor> ;
+                                           rdfs:range <http://www.semanticweb.org/imdb/Movie> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/imdb#birthYear
+:birthYear rdf:type owl:DatatypeProperty ;
+           rdfs:domain <http://www.semanticweb.org/imdb/Actor> ;
+           rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/imdb/averageRating
+<http://www.semanticweb.org/imdb/averageRating> rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain <http://www.semanticweb.org/imdb/Rating> ;
+                                                rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/imdb/endYear
+<http://www.semanticweb.org/imdb/endYear> rdf:type owl:DatatypeProperty ;
+                                          rdfs:domain <http://www.semanticweb.org/imdb/Movie> ;
+                                          rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/imdb/genre
+<http://www.semanticweb.org/imdb/genre> rdf:type owl:DatatypeProperty ;
+                                        rdfs:domain <http://www.semanticweb.org/imdb/Movie> ;
+                                        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/imdb/isAdult
+<http://www.semanticweb.org/imdb/isAdult> rdf:type owl:DatatypeProperty ;
+                                          rdfs:domain <http://www.semanticweb.org/imdb/Movie> ;
+                                          rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/imdb/name
+<http://www.semanticweb.org/imdb/name> rdf:type owl:DatatypeProperty ;
+                                       rdfs:domain <http://www.semanticweb.org/imdb/Actor> ;
+                                       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/imdb/numberOfRatings
+<http://www.semanticweb.org/imdb/numberOfRatings> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:domain <http://www.semanticweb.org/imdb/Rating> ;
+                                                  rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/imdb/originalTitle
+<http://www.semanticweb.org/imdb/originalTitle> rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain <http://www.semanticweb.org/imdb/Movie> ;
+                                                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/imdb/primaryTitle
+<http://www.semanticweb.org/imdb/primaryTitle> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://www.semanticweb.org/imdb/Movie> ;
+                                               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/imdb/runtimeMinutes
+<http://www.semanticweb.org/imdb/runtimeMinutes> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://www.semanticweb.org/imdb/Movie> ;
+                                                 rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/imdb/startYear
+<http://www.semanticweb.org/imdb/startYear> rdf:type owl:DatatypeProperty ;
+                                            rdfs:domain <http://www.semanticweb.org/imdb/Movie> ;
+                                            rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/imdb/titleType
+<http://www.semanticweb.org/imdb/titleType> rdf:type owl:DatatypeProperty ;
+                                            rdfs:domain <http://www.semanticweb.org/imdb/Movie> ;
+                                            rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/imdb/Actor
+<http://www.semanticweb.org/imdb/Actor> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/imdb/Movie
+<http://www.semanticweb.org/imdb/Movie> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/imdb/Rating
+<http://www.semanticweb.org/imdb/Rating> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,312 @@
+
+<http://ratings.example.com/data/tt0021156> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "6663"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0027996> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.8"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "21367"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0029843> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.9"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "50617"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0029870> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.9"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "21403"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0031210> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.5"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "11072"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0031381> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.2"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "310164"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0031867> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.9"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "13899"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0031983> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "6.9"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "2570"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0032551> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "91628"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0034167> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.7"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "18162"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0034583> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.5"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "559393"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0035140> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.9"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "16818"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0035575> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.6"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "15407"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0035896> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "6.8"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "9284"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0036855> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.8"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "28282"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0037382> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.8"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "34221"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0038109> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.5"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "48052"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0038355> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.9"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "84582"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0039123> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.2"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "188"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0040806> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.6"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "7628"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0041452> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "15685"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0042041> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "32455"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0042192> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.2"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "129585"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0042593> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.9"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "30986"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0043265> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.7"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "77846"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0043338> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "35360"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0044706> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "103133"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0045591> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.2"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "9891"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0047296> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "152737"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0048028> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.8"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "44976"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0048317> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "4226"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0048545> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.7"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "89439"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0049189> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "6.3"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "8350"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0049261> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.6"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "38264"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0049456> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.3"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "11640"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0049470> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.4"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "63833"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0050083> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "9.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "763788"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0050419> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "29880"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0050783> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "48310"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0050976> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "181771"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0050986> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "105658"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0051201> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.4"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "122088"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0051207> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.4"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "28189"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0052311> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "103480"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0053137> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "12950"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0053172> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.4"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "17219"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0053779> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "72034"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0054331> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.9"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "133203"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0054452> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.6"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "3808"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0055031> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.3"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "76263"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0056404> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "5.4"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "623"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0056687> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "54987"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0056801> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "116418"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0057345> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.5"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "31543"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0057877> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.8"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "14635"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0059749> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.6"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "16955"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0060827> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "115595"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0061184> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "74429"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0068646> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "9.2"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "1781216"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0069946> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "6.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "3156"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0070849> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "6.9"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "53374"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0071129> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.9"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "43120"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0071877> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.3"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "61607"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0072308> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "43182"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0072562> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.0"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "47921"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0077711> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "33695"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0077975> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.4"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "119490"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0078723> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "5.8"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "33454"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0078788> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.5"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "650928"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0080455> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.9"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "195800"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0080736> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "6.6"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "23652"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0082846> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.6"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "31130"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0083922> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "63169"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0087803> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "71548"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0091763> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "8.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "406615"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0096320> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "6.1"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "122931"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt0117057> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "6.6"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "19872"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://ratings.example.com/data/tt8847712> a <http://www.semanticweb.org/imdb#Rating>;
+  <http://www.semanticweb.org/imdb#averageRating> "7.2"^^<http://www.w3.org/2001/XMLSchema#float>;
+  <http://www.semanticweb.org/imdb#numberOfRatings> "104896"^^<http://www.w3.org/2001/XMLSchema#int> .

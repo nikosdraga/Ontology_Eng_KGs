@@ -1,0 +1,126 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+
+
+@prefix domain: <http://www.semanticweb.org/imdb#> .
+
+@base <http://movies.example.com/data/> .
+
+
+<#LogicalSource>
+    a rml:logicalSource;
+    rml:source [
+        a csvw:Table;
+        csvw:url "movies.tsv";
+        csvw:dialect [
+            a csvw:Dialect ;
+            csvw:delimiter "\t"
+        ]
+    ];
+    rml:referenceFormulation ql:CSV .
+
+
+<#MoviesMapping>
+    a rr:TriplesMap ;
+    rml:logicalSource <#LogicalSource> ;
+
+    rr:subjectMap [
+        rr:template "http://movies.example.com/data/{tconst}" ;
+        rr:class domain:Movie
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate domain:titleType ;
+        rr:objectMap [
+            rml:reference "titleType"
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate domain:primaryTitle ;
+        rr:objectMap [
+            rml:reference "primaryTitle"
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate domain:originalTitle ;
+        rr:objectMap [
+            rml:reference "originalTitle"
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate domain:isAdult ;
+        rr:objectMap [
+            rml:reference "isAdult";
+            rr:datatype xsd:boolean
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate domain:startYear ;
+        rr:objectMap [
+            rml:reference "startYear";
+            rr:datatype xsd:int
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate domain:endYear ;
+        rr:objectMap [
+            rml:reference "endYear";
+            rr:datatype xsd:int
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate domain:runtimeMinutes ;
+        rr:objectMap [
+            rml:reference "runtimeMinutes";
+            rr:datatype xsd:int
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate domain:genre;
+        rr:objectMap <#FunctionMap>
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate domain:hasRating;
+        rr:objectMap [
+            rr:template "http://ratings.example.com/data/{tconst}"
+        ]
+    ].
+
+<#FunctionMap>
+    fnml:functionValue [
+        rml:logicalSource <#LogicalSource>;
+        rr:predicateObjectMap [
+            rr:predicate fno:executes;
+            rr:objectMap [
+                rr:constant grel:string_split
+            ];
+        ];
+        rr:predicateObjectMap [
+            rr:predicate grel:valueParameter;
+            rr:objectMap [
+                rml:reference "genres"
+            ];
+        ];
+        rr:predicateObjectMap [
+            rr:predicate grel:p_string_sep;
+            rr:objectMap [
+                rr:constant ",";
+            ];
+        ];
+    ].
+
+

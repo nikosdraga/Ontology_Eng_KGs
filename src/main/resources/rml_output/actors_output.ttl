@@ -1,0 +1,140 @@
+
+<http://actors.example.com/data/nm0000001> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1899"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0031983>,
+    <http://movies.example.com/data/tt0050419>, <http://movies.example.com/data/tt0053137>,
+    <http://movies.example.com/data/tt0072308>;
+  <http://www.semanticweb.org/imdb#name> "Fred Astaire" .
+
+<http://actors.example.com/data/nm0000002> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1924"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0037382>,
+    <http://movies.example.com/data/tt0038355>, <http://movies.example.com/data/tt0071877>,
+    <http://movies.example.com/data/tt0117057>;
+  <http://www.semanticweb.org/imdb#name> "Lauren Bacall" .
+
+<http://actors.example.com/data/nm0000003> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1934"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0049189>,
+    <http://movies.example.com/data/tt0054452>, <http://movies.example.com/data/tt0056404>,
+    <http://movies.example.com/data/tt0057345>;
+  <http://www.semanticweb.org/imdb#name> "Brigitte Bardot" .
+
+<http://actors.example.com/data/nm0000004> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1949"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0072562>,
+    <http://movies.example.com/data/tt0077975>, <http://movies.example.com/data/tt0078723>,
+    <http://movies.example.com/data/tt0080455>;
+  <http://www.semanticweb.org/imdb#name> "John Belushi" .
+
+<http://actors.example.com/data/nm0000005> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1918"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0050976>,
+    <http://movies.example.com/data/tt0050986>, <http://movies.example.com/data/tt0060827>,
+    <http://movies.example.com/data/tt0083922>;
+  <http://www.semanticweb.org/imdb#name> "Ingmar Bergma" .
+
+<http://actors.example.com/data/nm0000006> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1915"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0034583>,
+    <http://movies.example.com/data/tt0036855>, <http://movies.example.com/data/tt0038109>,
+    <http://movies.example.com/data/tt0077711>;
+  <http://www.semanticweb.org/imdb#name> "Ingrid Bergman" .
+
+<http://actors.example.com/data/nm0000007> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1899"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0034583>,
+    <http://movies.example.com/data/tt0037382>, <http://movies.example.com/data/tt0042593>,
+    <http://movies.example.com/data/tt0043265>;
+  <http://www.semanticweb.org/imdb#name> "Humphrey Bogart" .
+
+<http://actors.example.com/data/nm0000008> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1924"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0047296>,
+    <http://movies.example.com/data/tt0068646>, <http://movies.example.com/data/tt0070849>,
+    <http://movies.example.com/data/tt0078788>;
+  <http://www.semanticweb.org/imdb#name> "Marlon Brando" .
+
+<http://actors.example.com/data/nm0000009> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1925"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0057877>,
+    <http://movies.example.com/data/tt0059749>, <http://movies.example.com/data/tt0061184>,
+    <http://movies.example.com/data/tt0087803>;
+  <http://www.semanticweb.org/imdb#name> "Richard Burton" .
+
+<http://actors.example.com/data/nm0000010> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1899"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0029870>,
+    <http://movies.example.com/data/tt0031867>, <http://movies.example.com/data/tt0035575>,
+    <http://movies.example.com/data/tt0042041>;
+  <http://www.semanticweb.org/imdb#name> "James Cagney" .
+
+<http://actors.example.com/data/nm0000011> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1901"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0027996>,
+    <http://movies.example.com/data/tt0034167>, <http://movies.example.com/data/tt0035896>,
+    <http://movies.example.com/data/tt0044706>;
+  <http://www.semanticweb.org/imdb#name> "Gary Cooper" .
+
+<http://actors.example.com/data/nm0000012> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1908"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0031210>,
+    <http://movies.example.com/data/tt0035140>, <http://movies.example.com/data/tt0042192>,
+    <http://movies.example.com/data/tt0056687>;
+  <http://www.semanticweb.org/imdb#name> "Bette Davis" .
+
+<http://actors.example.com/data/nm0000013> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1922"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0045591>,
+    <http://movies.example.com/data/tt0048317>, <http://movies.example.com/data/tt0049470>,
+    <http://movies.example.com/data/tt0053172>;
+  <http://www.semanticweb.org/imdb#name> "Doris Day" .
+
+<http://actors.example.com/data/nm0000014> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1916"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0029843>,
+    <http://movies.example.com/data/tt0031381>, <http://movies.example.com/data/tt0040806>,
+    <http://movies.example.com/data/tt0041452>;
+  <http://www.semanticweb.org/imdb#name> "Olivia de Havilland" .
+
+<http://actors.example.com/data/nm0000015> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1931"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0039123>,
+    <http://movies.example.com/data/tt0048028>, <http://movies.example.com/data/tt0048545>,
+    <http://movies.example.com/data/tt0049261>;
+  <http://www.semanticweb.org/imdb#name> "James Dean" .
+
+<http://actors.example.com/data/nm0000016> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1925"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0069946>,
+    <http://movies.example.com/data/tt0091763>, <http://movies.example.com/data/tt0096320>,
+    <http://movies.example.com/data/tt8847712>;
+  <http://www.semanticweb.org/imdb#name> "Georges Delerue" .
+
+<http://actors.example.com/data/nm0000017> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1901"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0021156>,
+    <http://movies.example.com/data/tt0051201>, <http://movies.example.com/data/tt0052311>,
+    <http://movies.example.com/data/tt0055031>;
+  <http://www.semanticweb.org/imdb#name> "Marlene Dietrich" .
+
+<http://actors.example.com/data/nm0000018> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1916"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0043338>,
+    <http://movies.example.com/data/tt0049456>, <http://movies.example.com/data/tt0054331>,
+    <http://movies.example.com/data/tt0080736>;
+  <http://www.semanticweb.org/imdb#name> "Kirk Douglas" .
+
+<http://actors.example.com/data/nm0000019> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1920"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0050783>,
+    <http://movies.example.com/data/tt0053779>, <http://movies.example.com/data/tt0056801>,
+    <http://movies.example.com/data/tt0071129>;
+  <http://www.semanticweb.org/imdb#name> "Federico Fellini" .
+
+<http://actors.example.com/data/nm0000020> a <http://www.semanticweb.org/imdb#Actor>;
+  <http://www.semanticweb.org/imdb#birthYear> "1905"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://www.semanticweb.org/imdb#knownFor> <http://movies.example.com/data/tt0032551>,
+    <http://movies.example.com/data/tt0050083>, <http://movies.example.com/data/tt0051207>,
+    <http://movies.example.com/data/tt0082846>;
+  <http://www.semanticweb.org/imdb#name> "Henry Fonda" .

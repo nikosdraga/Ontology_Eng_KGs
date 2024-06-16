@@ -1,0 +1,49 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+
+
+@prefix domain: <http://www.semanticweb.org/imdb#>.
+
+@base <http://ratings.examples.com/data/>.
+
+
+<#LogicalSource>
+    a rml:logicalSource;
+    rml:source [
+        a csvw:Table;
+        csvw:url "ratings.tsv";
+        csvw:dialect [
+            a csvw:Dialect ;
+            csvw:delimiter "\t"
+        ]
+    ];
+    rml:referenceFormulation ql:CSV .
+
+
+<#RatingsMapping>
+    a rr:TriplesMap;
+    rml:logicalSource <#LogicalSource> ;
+
+    rr:subjectMap [
+        rr:template "http://ratings.example.com/data/{id}";
+        rr:class domain:Rating
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate domain:numberOfRatings;
+        rr:objectMap [
+            rml:reference "total";
+            rr:datatype xsd:int
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate domain:averageRating;
+        rr:objectMap [
+            rml:reference "average";
+            rr:datatype xsd:float
+        ]
+    ].
